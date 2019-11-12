@@ -1,0 +1,25 @@
+{
+  "name": "node-js-rest-api",
+  "version": "1.0.0",
+  "description": "RESTful Web Service",
+  "engines": {
+    "node": ">= 7.0.0"
+  },
+  "main": "server",
+  "scripts": {
+    "start": "node server",
+    "test": "mocha \"./server/**/*.spec.js\""
+  },
+  "author": "Wen Zhang",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.2"
+  }
+}
